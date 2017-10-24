@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,product,price,sku,kondisi
-Jual Sandal Anak Laki-Laki - CAY 010 Murah,sandal-anak-laki-laki-cay-010,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
+Jual Sandal Flat Kasual Anak Laki-laki - CTU 002 Murah,sandal-flat-kasual-anak-laki-laki-ctu-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,6 +24,7 @@ Jual Sandal Anak Laki-Laki - CAY 010 Murah,sandal-anak-laki-laki-cay-010,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -46,8 +47,18 @@ Jual Sandal Anak Laki-Laki - CAY 010 Murah,sandal-anak-laki-laki-cay-010,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CAY 010 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CAY 010<br/>Warna : COKLAT<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Laki-laki - CTU 002 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Laki-Laki ini terbuat dari bahan SINTETIS.<br/>Kode : CTU 002<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : 31 - 37<br/>Berat : 0.5 kg<br/>Info Lainnya = SOLE : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -61,8 +72,8 @@ Jual Sandal Anak Laki-Laki - CAY 010 Murah,sandal-anak-laki-laki-cay-010,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/36-cay-010.jpg,Sandal Anak Laki-Laki - CAY 010,Rp 74.900,CAY 010,Baru
-Jual Sandal Anak Laki-Laki - CTU 083 Murah,sandal-anak-laki-laki-ctu-083,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan SINTETIS, Ukuran 31 - 37, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/30-ctu-002.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-002-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-002-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-002-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-002-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-002-e.jpg,Sandal Flat Kasual Anak Laki-laki - CTU 002,Rp 77.900,Rp 91.900,Rp 14.000,CTU 002,Baru
+Jual Sandal Flat Kasual Anak Laki-laki - CTU 083 Murah,sandal-flat-kasual-anak-laki-laki-ctu-083,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -87,6 +98,7 @@ Jual Sandal Anak Laki-Laki - CTU 083 Murah,sandal-anak-laki-laki-ctu-083,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -109,8 +121,18 @@ Jual Sandal Anak Laki-Laki - CTU 083 Murah,sandal-anak-laki-laki-ctu-083,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 083 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 083<br/>Warna : CREAM<br/>Bahan : Sintetis<br/>Ukuran : 31 - 37<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Laki-laki - CTU 083 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Laki-Laki ini terbuat dari bahan SINTETIS.<br/>Kode : CTU 083<br/>Warna : CREAM<br/>Bahan : SINTETIS<br/>Ukuran : 31 - 37<br/>Berat : 0.5 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -124,8 +146,8 @@ Jual Sandal Anak Laki-Laki - CTU 083 Murah,sandal-anak-laki-laki-ctu-083,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 37, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/37-ctu-083.jpg,Sandal Anak Laki-Laki - CTU 083,Rp 76.400,CTU 083,Baru
-Jual Sandal Anak Laki-Laki - CTU 087 Murah,sandal-anak-laki-laki-ctu-087,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan SINTETIS, Ukuran 31 - 37, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/31-ctu-083.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-083-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-083-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-083-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-083-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-083-e.jpg,Sandal Flat Kasual Anak Laki-laki - CTU 083,Rp 76.400,Rp 89.900,Rp 13.500,CTU 083,Baru
+Jual Sandal Flat Kasual Anak Laki-laki - CTU 001 Murah,sandal-flat-kasual-anak-laki-laki-ctu-001,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -150,6 +172,7 @@ Jual Sandal Anak Laki-Laki - CTU 087 Murah,sandal-anak-laki-laki-ctu-087,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -172,8 +195,18 @@ Jual Sandal Anak Laki-Laki - CTU 087 Murah,sandal-anak-laki-laki-ctu-087,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 087 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 087<br/>Warna : COKLAT<br/>Bahan : Sintetis<br/>Ukuran : 31 - 37<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Laki-laki - CTU 001 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Laki-Laki ini terbuat dari bahan SINTETIS.<br/>Kode : CTU 001<br/>Warna : COKLAT<br/>Bahan : SINTETIS<br/>Ukuran : 31 - 37<br/>Berat : 0.5 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -187,8 +220,8 @@ Jual Sandal Anak Laki-Laki - CTU 087 Murah,sandal-anak-laki-laki-ctu-087,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 37, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/38-ctu-087.jpg,Sandal Anak Laki-Laki - CTU 087,Rp 78.900,CTU 087,Baru
-Jual Sandal Anak Laki-Laki - CHM 039 Murah,sandal-anak-laki-laki-chm-039,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan SINTETIS, Ukuran 31 - 37, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/32-ctu-001.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-001-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-001-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-001-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-001-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/ctu-001-e.jpg,Sandal Flat Kasual Anak Laki-laki - CTU 001,Rp 77.900,Rp 91.900,Rp 14.000,CTU 001,Baru
+Jual Sandal Flat Kasual Anak Laki-laki - CHM 040 Murah,sandal-flat-kasual-anak-laki-laki-chm-040,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -213,6 +246,7 @@ Jual Sandal Anak Laki-Laki - CHM 039 Murah,sandal-anak-laki-laki-chm-039,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -235,8 +269,18 @@ Jual Sandal Anak Laki-Laki - CHM 039 Murah,sandal-anak-laki-laki-chm-039,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CHM 039 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CHM 039<br/>Warna : BIRU NAVY<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Laki-laki - CHM 040 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Laki-Laki ini terbuat dari bahan SINTETIS.<br/>Kode : CHM 040<br/>Warna : HITAM MERAH<br/>Bahan : SINTETIS<br/>Ukuran : 32 - 36<br/>Berat : 0.5 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -250,8 +294,8 @@ Jual Sandal Anak Laki-Laki - CHM 039 Murah,sandal-anak-laki-laki-chm-039,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/39-chm-039.jpg,Sandal Anak Laki-Laki - CHM 039,Rp 80.900,CHM 039,Baru
-Jual Sandal Anak Laki-Laki - CHM 037 Murah,sandal-anak-laki-laki-chm-037,"
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan SINTETIS, Ukuran 32 - 36, Warna HITAM MERAH",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/33-chm-040.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-040-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-040-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-040-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-040-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-040-e.jpg,Sandal Flat Kasual Anak Laki-laki - CHM 040,Rp 80.900,Rp 94.900,Rp 14.000,CHM 040,Baru
+Jual Sandal Flat Kasual Anak Laki-laki - CHM 039 Murah,sandal-flat-kasual-anak-laki-laki-chm-039,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -276,6 +320,7 @@ Jual Sandal Anak Laki-Laki - CHM 037 Murah,sandal-anak-laki-laki-chm-037,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -298,8 +343,18 @@ Jual Sandal Anak Laki-Laki - CHM 037 Murah,sandal-anak-laki-laki-chm-037,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CHM 037 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CHM 037<br/>Warna : HITAM MERAH<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
+         <p>Sandal Flat Kasual Anak Laki-laki - CHM 039 adalah salah satu produk merek Catenzo Junior. Produk fashion anak handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk anak Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sandal Anak Laki-Laki ini terbuat dari bahan SINTETIS.<br/>Kode : CHM 039<br/>Warna : BIRU NAVY<br/>Bahan : SINTETIS<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -313,571 +368,4 @@ Jual Sandal Anak Laki-Laki - CHM 037 Murah,sandal-anak-laki-laki-chm-037,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna HITAM MERAH",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/40-chm-037.jpg,Sandal Anak Laki-Laki - CHM 037,Rp 80.900,CHM 037,Baru
-Jual Sandal Anak Laki-Laki - CAY 009 Murah,sandal-anak-laki-laki-cay-009,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CAY 009 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CAY 009<br/>Warna : CREAM<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/41-cay-009.jpg,Sandal Anak Laki-Laki - CAY 009,Rp 74.900,CAY 009,Baru
-Jual Sandal Anak Laki-Laki - CHM 035 Murah,sandal-anak-laki-laki-chm-035,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CHM 035 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CHM 035<br/>Warna : TAN<br/>Bahan : Sintetis<br/>Ukuran : 31 - 36<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 31 - 36, Warna TAN",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/42-chm-035.jpg,Sandal Anak Laki-Laki - CHM 035,Rp 79.400,CHM 035,Baru
-Jual Sandal Anak Laki-Laki - CRN 323 Murah,sandal-anak-laki-laki-crn-323,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CRN 323 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CRN 323<br/>Warna : BIRU<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna BIRU",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/80-crn-323.jpg,Sandal Anak Laki-Laki - CRN 323,Rp 82.400,CRN 323,Baru
-Jual Sandal Anak Laki-Laki - CTU 090 Murah,sandal-anak-laki-laki-ctu-090,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 090 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 090<br/>Warna : CREAM<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/81-ctu-090.jpg,Sandal Anak Laki-Laki - CTU 090,Rp 74.900,CTU 090,Baru
-Jual Sandal Anak Laki-Laki - CAB 062 Murah,sandal-anak-laki-laki-cab-062,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CAB 062 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CAB 062<br/>Warna : ABU ABU<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/82-cab-062.jpg,Sandal Anak Laki-Laki - CAB 062,Rp 86.900,CAB 062,Baru
-Jual Sandal Anak Laki-Laki - CRN 205 Murah,sandal-anak-laki-laki-crn-205,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CRN 205 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CRN 205<br/>Warna : HITAM<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna HITAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/83-crn-205.jpg,Sandal Anak Laki-Laki - CRN 205,Rp 89.400,CRN 205,Baru
-Jual Sandal Anak Laki-Laki - CTU 089 Murah,sandal-anak-laki-laki-ctu-089,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 089 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 089<br/>Warna : BIRU KOMBINASI<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/84-ctu-089.jpg,Sandal Anak Laki-Laki - CTU 089,Rp 74.900,CTU 089,Baru
-Jual Sandal Anak Laki-Laki - CRN 325 Murah,sandal-anak-laki-laki-crn-325,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CRN 325 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CRN 325<br/>Warna : CREAM<br/>Bahan : Sintetis<br/>Ukuran : 26 - 30<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 26 - 30, Warna CREAM",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/85-crn-325.jpg,Sandal Anak Laki-Laki - CRN 325,Rp 82.400,CRN 325,Baru
-Jual Sandal Anak Laki-Laki - CTU 084 Murah,sandal-anak-laki-laki-ctu-084,"
-     <div class=""product-details""><!--product-details-->
-      <div class=""col-sm-5"">
-       <div class=""view-product"">
-        <img src=""{{ page.image }}"" alt=""{{ page.product }}"" title=""{{ page.product }}"" />
-        <h3><a style=""text-decoration: none; color: #ffffff"" href=""{{ page.image }}"" target=""_blank"" title=""Klik disini untuk memperbesar"">ZOOM</a></h3>
-       </div>
-      </div>
-
-      <div class=""col-sm-7"">
-       <div class=""product-information""><!--/product-information-->
-        <h1>{{ page.product }}</h1>
-        <p>SKU: {{ page.sku }}</p>
-        <img src=""{{ site.url }}/img/rating.png"" alt=""rating"" title=""rating"" /><br>
-        <span>
-         <span>{{ page.price }}</span>        
-         <label>Stok:<a href=""http://stok.lipatan.com"" target=""_blank"" title=""Cek Stok"">
-          <script type=""text/javascript"">
-          <!--
-          document.write(unescape('%3c%62%75%74%74%6f%6e%20%74%79%70%65%3d%22%62%75%74%74%6f%6e%22%20%63%6c%61%73%73%3d%22%62%74%6e%20%62%74%6e%2d%66%65%66%61%75%6c%74%20%63%61%72%74%22%3e%09%09%09%09%09%09%09%09%09%09%3c%69%20%63%6c%61%73%73%3d%22%66%61%20%66%61%2d%73%68%6f%70%70%69%6e%67%2d%63%61%72%74%22%3e%3c%2f%69%3e%09%09%09%09%09%09%09%09%09%09%43%65%6b%20%53%74%6f%6b%3c%2f%62%75%74%74%6f%6e%3e'));
-          //-->
-          </script>
-          </a>
-         </label>
-        </span>
-        <p><b>Kondisi:</b> {{ page.kondisi }}</p>
-        <p><b>Deskripsi:</b> {{ page.description }}</p>
-        {% include buy.html %}
-       </div><!--/product-information-->
-      </div>
-     </div><!--/product-details-->
-     
-     <div class=""category-tab shop-details-tab""><!--category-tab-->
-      <div class=""col-sm-12"">
-       <ul class=""nav nav-tabs"">
-        <li class=""active""><a href=""{{ site.url }}{{ page.url }}#keterangan"" data-toggle=""tab"" title=""Keterangan"">Keterangan</a></li>        
-       </ul>
-      </div>
-      <div class=""tab-content"">
-       <div class=""tab-pane fade active in"" id=""keterangan"" >
-        <div class=""col-sm-12"">
-         <h2>{{ page.product }}</h2>         
-         <ol class=""breadcrumb"">
-            <li class=""active"">Tag :</li>
-            <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
-            <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
-         </ol>         
-         <p>Bosan dengan produk fashion anak yang ada di pasar atau mall? Gak cuma orang dewasa, anak-anak pun ingin tampil trendy. Dengan produk Sandal Anak Laki-Laki merek Catenzo Junior ini membuat anak Anda semakin terlihat gaya, trendy dan berbeda. Sandal Anak Laki-Laki - CTU 084 dengan bahan Sintetis ini dijamin awet.<br/>Kode : CTU 084<br/>Warna : COKLAT<br/>Bahan : Sintetis<br/>Ukuran : 28 - 32<br/>Berat : 0.5 kg<br/>Sol : Tpr<br>
-         </p>
-
-         <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
-         Gudang : WRH-1<br>
-         Lokasi : Bandung</p>
-
-         {% include share.html %}
-
-         {% include disqus.html %}
-         
-        </div>
-       </div>       
-       
-      </div>
-     </div><!--/category-tab-->",2017-08-24,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan Sintetis, Ukuran 28 - 32, Warna COKLAT",https://images.lipatan.com/katalog-catenzo-junior-2017/foto-produk-satuan/86-ctu-084.jpg,Sandal Anak Laki-Laki - CTU 084,Rp 72.900,CTU 084,Baru
+     </div><!--/category-tab-->",2017-10-18,html,sandal-anak-laki-laki,catenzo-junior,sandal-anak-laki-laki,catenzo-junior,"Sandal Anak Laki-Laki Bahan SINTETIS, Ukuran 31 - 36, Warna BIRU NAVY",https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-produk-satuan/34-chm-039.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-039-a.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-039-b.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-039-c.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-039-d.jpg,https://images.lipatan.com/katalog-catenzo-junior-2017-2/foto-berbagai-sudut/chm-039-e.jpg,Sandal Flat Kasual Anak Laki-laki - CHM 039,Rp 80.900,Rp 94.900,Rp 14.000,CHM 039,Baru
